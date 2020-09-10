@@ -15,6 +15,7 @@ export default () => {
 
     let getAnswer = function () {
       setTimeout(function () {
+
         let answerEl = document.createElement(`li`);
         let placeholder = document.createElement(`div`);
         let textEl = document.createElement(`p`);
